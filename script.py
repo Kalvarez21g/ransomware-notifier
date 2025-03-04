@@ -10,8 +10,8 @@ expected_title_pattern = r'(\d+)\s+Ransomware victims from Spain'
 
 last_known_number = None
 
-TELEGRAM_TOKEN = '7611557801:AAEUaE3wv8qKkPQeowRWn7rwrGjQHwfAEBY' 
-TELEGRAM_CHAT_ID = '-4684025737' 
+TELEGRAM_TOKEN = 'yourtoken' 
+TELEGRAM_CHAT_ID = 'yourId' 
 
 def send_telegram_message(message):
     """
